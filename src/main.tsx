@@ -36,7 +36,6 @@ const vertexes = [
 function multiplyMatrices(a: number[][], b: number[][]) {
   const aNumRows = a.length,
     aNumCols = a[0].length,
-    bNumRows = b.length,
     bNumCols = b[0].length,
     m = new Array<number[]>(aNumRows); // initialize array of rows
   for (let r = 0; r < aNumRows; ++r) {
