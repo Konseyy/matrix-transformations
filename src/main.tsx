@@ -6,7 +6,7 @@ const two = new Two({
   autostart: true,
 }).appendTo(document.getElementById('root')!);
 
-const scale = two.height / 6;
+const scale = Math.min(two.height, two.width) / 6;
 
 const feta = (1 + Math.sqrt(5)) / 2;
 
