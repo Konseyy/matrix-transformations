@@ -158,7 +158,7 @@ function drawDodecahedron() {
     const path = two.makePath(anchorPoints);
 
     path.fill = 'none';
-    path.stroke = 'white';
+    path.stroke = 'orange';
 
     return path;
   });
